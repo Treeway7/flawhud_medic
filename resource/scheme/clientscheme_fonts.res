@@ -221,6 +221,32 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		"ScanlineShadow"
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"50"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+				"scanlines"		"2"
+				"blur"			"3"
+			}
+		}
+		"ScanlineShadowSmall"
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"22"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+				"scanlines"		"2"
+				"blur"			"3"
+			}
+		}
 
 		// DEFAULT
 		"Default"
@@ -228,14 +254,14 @@ Scheme
 			"1"
 			{
 				"name"			"TF2 Secondary"
-				"tall"			"12"
+				"tall"			"11"
 				"additive"		"0"
 				"antialias"		"1"
 			}
 			"2"
 			{
 				"name"			"TF2 Secondary"
-				"tall"			"12"
+				"tall"			"11"
 				"range"			"0x0000 0x00FF"
 				"weight"		"800"
 			}

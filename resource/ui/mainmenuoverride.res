@@ -1070,8 +1070,7 @@
 		"tall"				"80"
 		"visible"			"0"
 		"paintbackground"	"1"
-		"border"			"NoBorder"
-		"bgcolor_override"	"DarkGrey"
+		"bgcolor_override"	"HudBlack"
 		"PaintBackgroundType"	"2"
 
 		"Notifications_CloseButton"
@@ -1131,7 +1130,7 @@
 			"wide"				"210"
 			"tall"				"135"
 			"PaintBackgroundType"	"2"
-			"fgcolor_override"	"TextColor"
+			"fgcolor_override"		"TextColor"
 
 			"Notifications_Control"
 			{
@@ -1287,7 +1286,7 @@
 		"ControlName"		"CExImageButton"
 		"fieldName"			"VersionLabel"
 		"font"				"FontRegular12"
-		"labelText"			"FlawHUD v2022.1214"
+		"labelText"			"FlawHUD v2023.0610"
 		"labelText_minmode"	"#FH_streamer_mode_active"
 		"xpos"				"rs1-5"
 		"ypos"				"r13"

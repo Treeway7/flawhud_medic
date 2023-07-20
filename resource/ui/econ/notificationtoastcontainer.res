@@ -32,7 +32,7 @@
 		"wrap"				"1"
 		"labelText"			""
 		"textAlignment"		"North"
-		"font"				"FontRegular10"
+		"font"				"FontRegular9"
 		"textinsetx"		"2"
 		"textinsety"		"7"
 	}

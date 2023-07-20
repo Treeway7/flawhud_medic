@@ -19,7 +19,7 @@
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
 		"xpos"			"25"
-		"ypos"			"r127"
+		"ypos"			"r75"
 		"zpos"			"2"
 		"wide"			"75"
 		"tall"			"75"
@@ -66,8 +66,8 @@
 	{
 		"ControlName"		"CTFPlayerModelPanel"
 		"fieldName"			"classmodelpanel"
-		"xpos"				"0"		//"c170"
-		"ypos"				"r252"	//"r200"
+		"xpos"				"0"
+		"ypos"				"r200"
 		"zpos"				"2"
 		"wide"				"150"
 		"tall"				"200"
@@ -100,7 +100,7 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"CarryingWeapon"
-		"xpos"					"200"
+		"xpos"					"100"
 		"ypos"					"r27"
 		"zpos"					"100"
 		"wide"					"500"
@@ -200,5 +200,20 @@
 			"proportionaltoparent"	"1"
 			"auto_wide_tocontents"	"1"
 		}
+	}
+	
+	"Speedometer"
+	{
+		"controlName"		"ImagePanel"
+		"fieldName"			"Speedometer"
+		"xpos"				"cs-0.5"
+		"ypos"				"c25"
+		"zpos"				"-100"
+		"wide"				"50"
+		"tall"				"12"
+		"visible"			"0"		// Change to 1 to enable
+		"enabled"			"0"		// Change to 1 to enable
+		"image"				"replay/thumbnails/numbers"
+		"scaleImage"		"1"
 	}
 }

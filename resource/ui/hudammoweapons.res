@@ -23,7 +23,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"AmmoBG"
 		"xpos"				"0"
-		"ypos"				"1"
+		"ypos"				"0"
 		"zpos"				"1"
 		"wide"				"110"
 		"tall"				"43"
@@ -53,7 +53,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"AmmoInClipShadow"
-		"font"				"FontBold50"
+		"font"				"ScanlineShadow"
 		"fgcolor"			"Black"
 		"xpos"				"-2"
 		"ypos"				"-2"
@@ -89,7 +89,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"AmmoInReserveShadow"
-		"font"				"FontBold22"
+		"font"				"ScanlineShadowSmall"
 		"fgcolor"			"Black"
 		"xpos"				"-2"
 		"ypos"				"-2"
@@ -123,7 +123,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"AmmoNoClipShadow"
-		"font"				"FontBold50"
+		"font"				"ScanlineShadow"
 		"fgcolor"			"Black"
 		"xpos"				"-2"
 		"ypos"				"-2"

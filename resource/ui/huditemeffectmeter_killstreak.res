@@ -4,7 +4,8 @@
 {
 	"HudItemEffectMeter"
 	{
-		"ypos"				"r50"
+		"xpos"				"c200"
+		"ypos"				"r75"
 	}
 
 	"StreakIcon"
