@@ -6,9 +6,9 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"xpos"				"c-55"
-		"ypos"				"c135"
+		"ypos"				"c124"
 		"wide"				"110"
-		"tall"				"8"
+		"tall"				"10"
 		"MeterFG"			"TanLight"
 		"MeterBG"			"Gray"
 	}
@@ -30,7 +30,7 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"font"				"FontBold10"
+		"font"				"FontBold9"
 	}
 
 	"ItemEffectMeter"
@@ -39,10 +39,10 @@
 		"fieldName"			"ItemEffectMeter"
 		"font"				"Default"
 		"xpos"				"0"
-		"ypos"				"0"
+		"ypos"				"8"
 		"zpos"				"2"
 		"wide"				"110"
-		"tall"				"8"
+		"tall"				"10"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"

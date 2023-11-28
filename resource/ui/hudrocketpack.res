@@ -4,9 +4,7 @@
 {
 	"HudItemEffectMeter"
 	{
-		"xpos"				"c-55"
-		"ypos"				"c115"
-		"tall"				"110"
+		"tall"				"22"
 	}
 
 	"ItemEffectMeterBG"
@@ -33,7 +31,7 @@
 
 	"ItemEffectMeterLabel"
 	{
-		"ypos"				"20"
+		"visible"			"0"
 		"labelText"			"#TF_RocketPack_Disabled"
 	}
 
@@ -41,7 +39,6 @@
 	{
 		"ypos"				"20"
 		"wide"				"55"
-		"textAlignment"		"Left"
 	}
 
 	"ItemEffectMeter2"
@@ -52,12 +49,12 @@
 		"ypos"				"20"
 		"zpos"				"2"
 		"wide"				"55"
-		"tall"				"8"
+		"tall"				"2"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"textAlignment"		"Left"
+		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"fgcolor"			"TanLight"

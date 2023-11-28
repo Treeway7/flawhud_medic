@@ -1,5 +1,49 @@
 "Resource/UI/HudPlayerClass.res"
 {
+	//--------------------------------------------------------------
+	// CROSSHAIR
+	//--------------------------------------------------------------
+	// Set visible to 1 to enable.
+	// Change xpos and ypos values if not perfectly centered.
+	// Change labelText to the corresponding crosshair in TF2Crosshairs.png.
+	//--------------------------------------------------------------
+	"CustomCrosshair"
+	{
+		"visible"			"0"
+		"enabled"			"1"
+		"labelText"			"<"
+		"controlName"		"CExLabel"
+		"fieldName"			"CustomCrosshair"
+		"zpos"				"0"
+		"xpos"				"cs-0.5"
+		"ypos"				"cs-0.5"
+		"wide"				"f0"
+		"tall"				"f0"
+		"font"				"Size:18"
+		"textAlignment"		"center"
+		"fgcolor"			"Crosshair"
+	}
+	//--------------------------------------------------------------
+	// SPEEDOMETER
+	//--------------------------------------------------------------
+	// Set visible to 1 to enable.
+	//--------------------------------------------------------------
+	"Speedometer"
+	{
+		"visible"			"0"
+		"enabled"			"1"
+		"controlName"		"ImagePanel"
+		"fieldName"			"Speedometer"
+		"xpos"				"cs-0.5"
+		"ypos"				"c25"
+		"zpos"				"-100"
+		"wide"				"50"
+		"tall"				"12"
+		"image"				"replay/thumbnails/numbers"
+		"scaleImage"		"1"
+	}
+	//--------------------------------------------------------------
+	
 	// Player Class Data
 	"HudPlayerClass"
 	{
@@ -86,7 +130,7 @@
 			"angles_y" 			"200"
 			"angles_z" 			"0"
 			"origin_x" 			"200"
-			"origin_y" 			"2"
+			"origin_y" 			"0"
 			"origin_z" 			"-80"
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
@@ -101,12 +145,10 @@
 		"ControlName"			"EditablePanel"
 		"fieldName"				"CarryingWeapon"
 		"xpos"					"100"
-		"ypos"					"r27"
+		"ypos"					"r25"
 		"zpos"					"100"
 		"wide"					"500"
-		"tall"	 				"28"
-		"bgcolor_override"		"Transparent"
-		"PaintBackgroundType"	"2"
+		"tall"	 				"20"
 
 		"CarryingBackground"
 		{
@@ -130,90 +172,75 @@
 
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
-			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"
 		}
 
 		"CarryingLabel"
 		{
-			"ControlName"		"CExLabel"
-			"fieldName"			"CarryingLabel"
-			"font"				"ReplayBrowserSmallest"
-			"xpos"				"5"
-			"ypos"				"3"
-			"zpos"				"1"
-			"wide"				"200"
-			"tall"	 			"f0"
-			"autoResize"		"0"
-			"pinCorner"			"0"
-			"visible"			"1"
-			"enabled"			"1"
-			"textAlignment"		"North-West"
-			"dulltext"			"0"
-			"brighttext"		"0"
+			"ControlName"			"CExLabel"
+			"fieldName"				"CarryingLabel"
+			"font"					"FontRegular15"
+			"xpos"					"15"
+			"ypos"					"3"
+			"zpos"					"1"
+			"wide"					"200"
+			"tall"	 				"f0"
+			"autoResize"			"0"
+			"pinCorner"				"0"
+			"visible"				"1"
+			"enabled"				"1"
+			"textAlignment"			"North-West"
+			"dulltext"				"0"
+			"brighttext"			"0"
 			"proportionaltoparent"	"1"
 			"auto_wide_tocontents"	"1"
-			"labelText"			"%carrying%"
+			"labelText"				"%carrying%"
 		}
 
 		"CarryingLabelDropShadow"
 		{
-			"ControlName"		"CExLabel"
-			"fieldName"			"CarryingLabelDropShadow"
-			"font"				"ReplayBrowserSmallest"
-			"xpos"				"p0.011"
-			"ypos"				"p0.12"
-			"zpos"				"0"
-			"wide"				"200"
-			"tall"	 			"f0"
-			"autoResize"		"0"
-			"pinCorner"			"0"
-			"visible"			"0"
-			"enabled"			"0"
-			"textAlignment"		"North-West"
-			"dulltext"			"0"
-			"brighttext"		"0"
+			"ControlName"			"CExLabel"
+			"fieldName"				"CarryingLabelDropShadow"
+			"font"					"ReplayBrowserSmallest"
+			"xpos"					"p0.011"
+			"ypos"					"p0.12"
+			"zpos"					"0"
+			"wide"					"200"
+			"tall"	 				"f0"
+			"autoResize"			"0"
+			"pinCorner"				"0"
+			"visible"				"0"
+			"enabled"				"0"
+			"textAlignment"			"North-West"
+			"dulltext"				"0"
+			"brighttext"			"0"
 			"proportionaltoparent"	"1"
 			"auto_wide_tocontents"	"1"
-			"fgcolor_override"	"Black"
-			"labelText"			"%carrying%"
+			"fgcolor_override"		"Black"
+			"labelText"				"%carrying%"
 		}
 
 		"OwnerLabel"
 		{
-			"ControlName"		"Label"
-			"fieldName"			"OwnerLabel"
-			"font"				"FontStoreOriginalPrice"
-			"font_minmode"		"SmallerIcons"
-			"xpos"				"5"
-			"ypos"				"14"
-			"zpos"				"0"
-			"wide"				"200"
-			"tall"	 			"f0"
-			"autoResize"		"0"
-			"pinCorner"			"0"
-			"visible"			"1"
-			"enabled"			"1"
-			"textAlignment"		"North-West"
-			"dulltext"			"0"
-			"brighttext"		"0"
+			"ControlName"			"Label"
+			"fieldName"				"OwnerLabel"
+			"font"					"FontStoreOriginalPrice"
+			"font_minmode"			"SmallerIcons"
+			"xpos"					"5"
+			"ypos"					"14"
+			"zpos"					"0"
+			"wide"					"200"
+			"tall"	 				"f0"
+			"autoResize"			"0"
+			"pinCorner"				"0"
+			"visible"				"0"
+			"enabled"				"0"
+			"textAlignment"			"North-West"
+			"dulltext"				"0"
+			"brighttext"			"0"
 			"proportionaltoparent"	"1"
 			"auto_wide_tocontents"	"1"
 		}
-	}
-	
-	"Speedometer"
-	{
-		"controlName"		"ImagePanel"
-		"fieldName"			"Speedometer"
-		"xpos"				"cs-0.5"
-		"ypos"				"c25"
-		"zpos"				"-100"
-		"wide"				"50"
-		"tall"				"12"
-		"visible"			"0"		// Change to 1 to enable
-		"enabled"			"0"		// Change to 1 to enable
-		"image"				"replay/thumbnails/numbers"
-		"scaleImage"		"1"
 	}
 }

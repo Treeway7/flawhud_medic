@@ -6,7 +6,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
 		"xpos"			"c-250"
-		"ypos"			"c95"
+		"ypos"			"c85"
 		"zpos"			"2"
 		"wide"			"150"
 		"tall"			"150"
@@ -57,7 +57,7 @@
 		"tall"			"43"
 		"visible"		"1"		//Change to "0" to enable health cross
 		"enabled"		"1"
-		"bgcolor_override"		"HudBlack"
+		"bgcolor_override"		"BGBlack"
 		"PaintBackgroundType"	"2"
 	}
 
